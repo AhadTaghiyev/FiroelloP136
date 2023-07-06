@@ -1,0 +1,102 @@
+﻿<Properties StartupConfiguration="{AB2B64FF-0607-41AE-A3E0-6CD3D986675B}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint enabled="false" file="/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/Controllers/HomeController.cs" relfile="Fiorello.App/Controllers/HomeController.cs" line="49" column="1" />
+      <Breakpoint enabled="false" file="/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/Services/Implementations/BasketService.cs" relfile="Fiorello.App/Services/Implementations/BasketService.cs" line="68" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Fiorello.App PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Fiorello.App/appsettings.json">
+    <Files>
+      <File FileName="Fiorello.Core/Entities/BaseModel.cs" />
+      <File FileName="Fiorello.Core/Entities/Category.cs" />
+      <File FileName="Fiorello.App/Context/FiorelloDbContext.cs" Line="8" Column="58" />
+      <File FileName="Fiorello.App/areas/Admin/Views/Category/Index.cshtml" />
+      <File FileName="Fiorello.App/areas/Admin/Controllers/HomeController.cs" />
+      <File FileName="Fiorello.App/areas/Admin/Views/Category/Create.cshtml" />
+      <File FileName="Fiorello.App/Program.cs" Line="24" Column="70" />
+      <File FileName="Fiorello.App/areas/Admin/Views/Shared/_Layout.cshtml" />
+      <File FileName="Fiorello.App/areas/Admin/Views/Category/Update.cshtml" />
+      <File FileName="Fiorello.App/Controllers/HomeController.cs" Line="17" Column="9" />
+      <File FileName="Fiorello.App/Views/Shared/_Layout.cshtml" Line="230" Column="85" />
+      <File FileName="Fiorello.App/Views/_ViewImports.cshtml" />
+      <File FileName="Fiorello.App/areas/Admin/Views/Blog/Create.cshtml" />
+      <File FileName="Fiorello.App/areas/Admin/Controllers/PositionController.cs" />
+      <File FileName="Fiorello.Core/Entities/Employee.cs" />
+      <File FileName="Fiorello.App/areas/Admin/Views/Position/Index.cshtml" />
+      <File FileName="Fiorello.App/areas/Admin/Views/Position/Create.cshtml" />
+      <File FileName="Fiorello.App/areas/Admin/Views/Position/Update.cshtml" />
+      <File FileName="Fiorello.App/areas/Admin/Controllers/EmployeeController.cs" />
+      <File FileName="Fiorello.App/areas/Admin/Views/Employee/Index.cshtml" />
+      <File FileName="Fiorello.App/areas/Admin/Views/Employee/Create.cshtml" />
+      <File FileName="Fiorello.App/areas/Admin/Views/Blog/Index.cshtml" />
+      <File FileName="Fiorello.App/areas/Admin/Views/Employee/Update.cshtml" />
+      <File FileName="Fiorello.App/areas/Admin/Views/Home/Index.cshtml" />
+      <File FileName="Fiorello.App/Views/Home/Index.cshtml" Line="117" Column="92" />
+      <File FileName="Fiorello.Core/Entities/Tag.cs" />
+      <File FileName="Fiorello.Core/Entities/Discount.cs" />
+      <File FileName="Fiorello.Core/Entities/Product.cs" />
+      <File FileName="Fiorello.Core/Entities/ProductCategory.cs" />
+      <File FileName="Fiorello.Core/Entities/ProductTag.cs" />
+      <File FileName="Fiorello.Core/Entities/ProductImage.cs" />
+      <File FileName="Fiorello.App/areas/Admin/Controllers/TagController.cs" />
+      <File FileName="Fiorello.App/areas/Admin/Views/Tag/Index.cshtml" />
+      <File FileName="Fiorello.App/areas/Admin/Views/Tag/Update.cshtml" />
+      <File FileName="Fiorello.App/areas/Admin/Views/Tag/Create.cshtml" />
+      <File FileName="Fiorello.App/areas/Admin/Controllers/DiscountController.cs" />
+      <File FileName="Fiorello.App/areas/Admin/Views/Discount/Index.cshtml" />
+      <File FileName="Fiorello.App/areas/Admin/Views/Discount/Create.cshtml" />
+      <File FileName="Fiorello.App/areas/Admin/Views/Discount/Update.cshtml" />
+      <File FileName="Fiorello.App/areas/Admin/Controllers/ProductController.cs" />
+      <File FileName="Fiorello.App/areas/Admin/Views/Product/Create.cshtml" />
+      <File FileName="Fiorello.App/Helpers/Helper.cs" />
+      <File FileName="Fiorello.App/areas/Admin/Views/Product/Index.cshtml" />
+      <File FileName="Fiorello.App/areas/Admin/Views/Product/Update.cshtml" />
+      <File FileName="Fiorello.App/Controllers/ProductController.cs" Line="55" Column="39" />
+      <File FileName="Fiorello.App/ViewModels/ProductViewModel.cs" Line="1" Column="1" />
+      <File FileName="Fiorello.App/appsettings.json" Line="15" Column="1" />
+      <File FileName="Fiorello.App/wwwroot/assets/js/main.js" />
+      <File FileName="Fiorello.App/wwwroot/assets/js/homepage.js" />
+      <File FileName="Fiorello.App/wwwroot/assets/js/accordions.js" />
+      <File FileName="Fiorello.App/wwwroot/assets/scss/style.scss" />
+      <File FileName="Fiorello.App/ViewModels/BasketViewModel.cs" />
+      <File FileName="Fiorello.App/Services/Interfaces/IBasketService.cs" Line="10" Column="10" />
+      <File FileName="Fiorello.App/ViewModels/HomeViewModel.cs" />
+      <File FileName="Fiorello.App/ViewModels/BasketItemViewModel.cs" Line="11" Column="2" />
+      <File FileName="Fiorello.App/Services/Implementations/BasketService.cs" Line="46" Column="1" />
+      <File FileName="Fiorello.App/wwwroot/assets/js/shoplist.js" />
+      <File FileName="Fiorello.App/Controllers/AccountController.cs" Line="10" Column="1" />
+      <File FileName="Fiorello.App/Views/Account/Register.cshtml" Line="12" Column="106" />
+      <File FileName="Fiorello.App/ViewModels/RegisterViewModel.cs" Line="6" Column="32" />
+      <File FileName="Fiorello.App/Views/Account/Login.cshtml" Line="41" Column="49" />
+      <File FileName="Fiorello.App/ViewModels/LoginViewModel.cs" Line="8" Column="39" />
+      <File FileName="Fiorello.App/Views/Account/Info.cshtml" Line="29" Column="40" />
+      <File FileName="Fiorello.App/areas/Admin/Controllers/AccountController.cs" Line="60" Column="1" />
+      <File FileName="Fiorello.App/areas/Admin/Controllers/BlogController.cs" Line="19" Column="44" />
+      <File FileName="Fiorello.App/areas/Admin/Controllers/CategoryController.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Fiorello.App" expanded="True">
+            <Node name="Fiorello.App" expanded="True">
+              <Node name="areas" expanded="True">
+                <Node name="Admin" expanded="True">
+                  <Node name="Views" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="appsettings.json" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

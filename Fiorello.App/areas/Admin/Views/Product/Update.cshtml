@@ -1,0 +1,208 @@
+﻿@model Product
+<div class="container">
+    <form method="post" enctype="multipart/form-data">
+        <div class="alert alert-danger" asp-validation-summary="ModelOnly"></div>
+        <div class="form-group">
+            <label asp-for="Name"></label>
+            <input class="form-control" asp-for="Name">
+            <span class="text text-danger" asp-validation-for="Name"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Price"></label>
+            <input class="form-control" asp-for="Price">
+            <span class="text text-danger" asp-validation-for="Price"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Weight"></label>
+            <input class="form-control" asp-for="Weight">
+            <span class="text text-danger" asp-validation-for="Weight"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Dimensions"></label>
+            <input class="form-control" asp-for="Dimensions">
+            <span class="text text-danger" asp-validation-for="Dimensions"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Title"></label>
+            <input class="form-control" asp-for="Title">
+            <span class="text text-danger" asp-validation-for="Title"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Info"></label>
+            <input class="form-control" asp-for="Info">
+            <span class="text text-danger" asp-validation-for="Info"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Description"></label>
+            <input class="form-control" asp-for="Description">
+            <span class="text text-danger" asp-validation-for="Description"></span>
+        </div>
+        <div class="form-group">
+            <select asp-for="DiscountId" class="form-select" aria-label="Disabled select example">
+                <option value="0">Choose Percent</option>
+                @foreach (var item in ViewBag.Discounts)
+                {
+                    @if (Model.Discount != null)
+                    {
+                        @if (Model.DiscountId == item.Id)
+                        {
+                            <option selected value="@item.Id">@item.Percent</option>
+                        }
+
+                    }
+                    <option value="@item.Id">@item.Percent</option>
+                }
+            </select>
+            <span class="text text-danger" asp-validation-for="DiscountId"></span>
+        </div>
+        <div class="form-group">
+            <select multiple asp-for="CategoryIds" class="form-select" aria-label="Disabled select example">
+                @foreach (var item in ViewBag.Categories)
+                {
+
+
+                    @if (Model.ProductCategories.Any(x => x.CategoryId == item.Id))
+                    {
+                        <option selected value="@item.Id">@item.Name</option>
+                    }
+                    else
+                    {
+                        <option value="@item.Id">@item.Name</option>
+                    }
+
+                }
+            </select>
+            <span class="text text-danger" asp-validation-for="CategoryIds"></span>
+        </div>
+        <div class="form-group">
+            <select multiple asp-for="TagIds" class="form-select" aria-label="Disabled select example">
+                @foreach (var item in ViewBag.Tags)
+                {
+                    @if (Model.ProductTags.Any(x => x.TagId == item.Id))
+                    {
+                        <option selected value="@item.Id">@item.Name</option>
+                    }
+                    else
+                    {
+                        <option value="@item.Id">@item.Name</option>
+                    }
+
+                }
+            </select>
+            <span class="text text-danger" asp-validation-for="TagIds"></span>
+        </div>
+
+        <div>
+            @foreach (var item in Model.ProductImages)
+            {
+
+
+
+<div style="width:150px;display:inline-block" class="text-center">
+    <span class="main">
+        @if (item.IsMain)
+        {
+
+            <span class="text text-info">Main image</span>
+
+        }
+    </span>
+
+    <a class="setasmain" asp-controller="product" asp-action="SetAsMainImage" asp-route-id="@item.Id"><i class="fa-solid fa-check"></i></a>
+    <a class="removeimage text text-danger"  asp-controller="product" asp-action="RemoveImage" asp-route-id="@item.Id"><i class="fa-solid fa-xmark"></i></a>
+
+
+
+    <img style="width:100%;height:100px" src="~/assets/images/@item.Image" class="rounded" alt="...">
+</div>
+            }
+        </div>
+        <div class="form-group">
+            <label asp-for="FormFiles"></label>
+            <input multiple accept="image/*" type="file" class="form-control" asp-for="FormFiles">
+            <span class="text text-danger" asp-validation-for="FormFiles"></span>
+        </div>
+        @Html.AntiForgeryToken()
+        <button type="submit">Create</button>
+    </form>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+    const setasmains = document.querySelectorAll(".setasmain");
+
+    setasmains.forEach(set => {
+        set.addEventListener("click", (e) => {
+            e.preventDefault();
+            
+            const endpoint = set.getAttribute("href");
+            fetch(endpoint)
+                .then(x => x.json())
+                .then(x => {
+                    if (x.status == 404) {
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Oops...',
+                            text: 'Something went wrong!',
+                            footer: '<a href="">Image not found</a>'
+                        })
+                    }
+                    else if (x.status == 200) {
+                        Swal.fire(
+                            'Good job!',
+                            'You clicked the button!',
+                            'success'
+                        )
+                    }
+                    let mains = document.querySelectorAll(".main");
+                    mains.forEach(x => {
+                        x.innerHTML = ""
+                    })
+                    let setasmain = set.parentElement.children[0]
+                    setasmain.innerHTML = "<span class='text text-info'>Main image</span>"
+
+                    
+                })
+
+        })
+    })
+</script>
+<script>
+    let removeImages = document.querySelectorAll(".removeimage");
+
+    removeImages.forEach(img => {
+        img.addEventListener("click", (e) => {
+            e.preventDefault();
+            const endpoint = img.getAttribute("href")
+            fetch(endpoint)
+                .then(res => res.json())
+                .then(x => {
+                    if (x.status == 404) {
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Oops...',
+                            text: 'Something went wrong!',
+                            footer: `<a href="">${x.desc}</a>`
+                        })
+                    }
+                    else if (x.status == 400) {
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Oops...',
+                            text: 'Something went wrong!',
+                            footer: `<a href="">${x.desc}</a>`
+                        })
+                    }
+                    else if (x.status == 200) {
+                        let imageParent = img.parentElement;
+                        imageParent.remove();
+                        Swal.fire(
+                            'Good job!',
+                            'You clicked the button!',
+                            'success'
+                        )
+
+                    }
+                })
+        })
+    })
+</script>

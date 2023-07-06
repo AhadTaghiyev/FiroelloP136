@@ -1,0 +1,665 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/obj/Debug/net6.0/scopedcss/projectbundle/Fiorello.App.bundle.scp.css",
+      "PackagePath": "staticwebassets/Fiorello.App.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/.DS_Store",
+      "PackagePath": "staticwebassets/admin/assets/.DS_Store"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/css/maps/style.css.map",
+      "PackagePath": "staticwebassets/admin/assets/css/maps/style.css.map"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/css/style.css",
+      "PackagePath": "staticwebassets/admin/assets/css/style.css"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/fonts/.DS_Store",
+      "PackagePath": "staticwebassets/admin/assets/fonts/.DS_Store"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/fonts/Roboto/.DS_Store",
+      "PackagePath": "staticwebassets/admin/assets/fonts/Roboto/.DS_Store"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/fonts/Roboto/Roboto-Black.eot",
+      "PackagePath": "staticwebassets/admin/assets/fonts/Roboto/Roboto-Black.eot"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/fonts/Roboto/Roboto-Black.ttf",
+      "PackagePath": "staticwebassets/admin/assets/fonts/Roboto/Roboto-Black.ttf"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/fonts/Roboto/Roboto-Black.woff",
+      "PackagePath": "staticwebassets/admin/assets/fonts/Roboto/Roboto-Black.woff"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/fonts/Roboto/Roboto-Black.woff2",
+      "PackagePath": "staticwebassets/admin/assets/fonts/Roboto/Roboto-Black.woff2"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/fonts/Roboto/Roboto-Bold.eot",
+      "PackagePath": "staticwebassets/admin/assets/fonts/Roboto/Roboto-Bold.eot"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/fonts/Roboto/Roboto-Bold.ttf",
+      "PackagePath": "staticwebassets/admin/assets/fonts/Roboto/Roboto-Bold.ttf"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/fonts/Roboto/Roboto-Bold.woff",
+      "PackagePath": "staticwebassets/admin/assets/fonts/Roboto/Roboto-Bold.woff"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/fonts/Roboto/Roboto-Bold.woff2",
+      "PackagePath": "staticwebassets/admin/assets/fonts/Roboto/Roboto-Bold.woff2"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/fonts/Roboto/Roboto-Light.eot",
+      "PackagePath": "staticwebassets/admin/assets/fonts/Roboto/Roboto-Light.eot"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/fonts/Roboto/Roboto-Light.ttf",
+      "PackagePath": "staticwebassets/admin/assets/fonts/Roboto/Roboto-Light.ttf"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/fonts/Roboto/Roboto-Light.woff",
+      "PackagePath": "staticwebassets/admin/assets/fonts/Roboto/Roboto-Light.woff"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/fonts/Roboto/Roboto-Light.woff2",
+      "PackagePath": "staticwebassets/admin/assets/fonts/Roboto/Roboto-Light.woff2"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/fonts/Roboto/Roboto-Medium.eot",
+      "PackagePath": "staticwebassets/admin/assets/fonts/Roboto/Roboto-Medium.eot"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/fonts/Roboto/Roboto-Medium.ttf",
+      "PackagePath": "staticwebassets/admin/assets/fonts/Roboto/Roboto-Medium.ttf"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/fonts/Roboto/Roboto-Medium.woff",
+      "PackagePath": "staticwebassets/admin/assets/fonts/Roboto/Roboto-Medium.woff"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/fonts/Roboto/Roboto-Medium.woff2",
+      "PackagePath": "staticwebassets/admin/assets/fonts/Roboto/Roboto-Medium.woff2"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/fonts/Roboto/Roboto-Regular.eot",
+      "PackagePath": "staticwebassets/admin/assets/fonts/Roboto/Roboto-Regular.eot"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/fonts/Roboto/Roboto-Regular.ttf",
+      "PackagePath": "staticwebassets/admin/assets/fonts/Roboto/Roboto-Regular.ttf"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/fonts/Roboto/Roboto-Regular.woff",
+      "PackagePath": "staticwebassets/admin/assets/fonts/Roboto/Roboto-Regular.woff"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/fonts/Roboto/Roboto-Regular.woff2",
+      "PackagePath": "staticwebassets/admin/assets/fonts/Roboto/Roboto-Regular.woff2"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/images/.DS_Store",
+      "PackagePath": "staticwebassets/admin/assets/images/.DS_Store"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/images/auth/.DS_Store",
+      "PackagePath": "staticwebassets/admin/assets/images/auth/.DS_Store"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/images/auth/lockscreen-bg.jpg",
+      "PackagePath": "staticwebassets/admin/assets/images/auth/lockscreen-bg.jpg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/images/auth/login-bg.jpg",
+      "PackagePath": "staticwebassets/admin/assets/images/auth/login-bg.jpg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/images/auth/register-bg.jpg",
+      "PackagePath": "staticwebassets/admin/assets/images/auth/register-bg.jpg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/images/faces/.DS_Store",
+      "PackagePath": "staticwebassets/admin/assets/images/faces/.DS_Store"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/images/faces/face1.jpg",
+      "PackagePath": "staticwebassets/admin/assets/images/faces/face1.jpg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/images/faces/face10.jpg",
+      "PackagePath": "staticwebassets/admin/assets/images/faces/face10.jpg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/images/faces/face11.jpg",
+      "PackagePath": "staticwebassets/admin/assets/images/faces/face11.jpg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/images/faces/face12.jpg",
+      "PackagePath": "staticwebassets/admin/assets/images/faces/face12.jpg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/images/faces/face13.jpg",
+      "PackagePath": "staticwebassets/admin/assets/images/faces/face13.jpg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/images/faces/face14.jpg",
+      "PackagePath": "staticwebassets/admin/assets/images/faces/face14.jpg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/images/faces/face15.jpg",
+      "PackagePath": "staticwebassets/admin/assets/images/faces/face15.jpg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/images/faces/face16.jpg",
+      "PackagePath": "staticwebassets/admin/assets/images/faces/face16.jpg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/images/faces/face17.jpg",
+      "PackagePath": "staticwebassets/admin/assets/images/faces/face17.jpg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/images/faces/face18.jpg",
+      "PackagePath": "staticwebassets/admin/assets/images/faces/face18.jpg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/images/faces/face19.jpg",
+      "PackagePath": "staticwebassets/admin/assets/images/faces/face19.jpg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/images/faces/face2.jpg",
+      "PackagePath": "staticwebassets/admin/assets/images/faces/face2.jpg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/images/faces/face20.jpg",
+      "PackagePath": "staticwebassets/admin/assets/images/faces/face20.jpg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/images/faces/face21.jpg",
+      "PackagePath": "staticwebassets/admin/assets/images/faces/face21.jpg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/images/faces/face22.jpg",
+      "PackagePath": "staticwebassets/admin/assets/images/faces/face22.jpg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/images/faces/face23.jpg",
+      "PackagePath": "staticwebassets/admin/assets/images/faces/face23.jpg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/images/faces/face24.jpg",
+      "PackagePath": "staticwebassets/admin/assets/images/faces/face24.jpg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/images/faces/face25.jpg",
+      "PackagePath": "staticwebassets/admin/assets/images/faces/face25.jpg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/images/faces/face26.jpg",
+      "PackagePath": "staticwebassets/admin/assets/images/faces/face26.jpg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/images/faces/face27.jpg",
+      "PackagePath": "staticwebassets/admin/assets/images/faces/face27.jpg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/images/faces/face3.jpg",
+      "PackagePath": "staticwebassets/admin/assets/images/faces/face3.jpg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/images/faces/face4.jpg",
+      "PackagePath": "staticwebassets/admin/assets/images/faces/face4.jpg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/images/faces/face5.jpg",
+      "PackagePath": "staticwebassets/admin/assets/images/faces/face5.jpg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/images/faces/face6.jpg",
+      "PackagePath": "staticwebassets/admin/assets/images/faces/face6.jpg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/images/faces/face7.jpg",
+      "PackagePath": "staticwebassets/admin/assets/images/faces/face7.jpg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/images/faces/face8.jpg",
+      "PackagePath": "staticwebassets/admin/assets/images/faces/face8.jpg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/images/faces/face9.jpg",
+      "PackagePath": "staticwebassets/admin/assets/images/faces/face9.jpg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/images/favicon.png",
+      "PackagePath": "staticwebassets/admin/assets/images/favicon.png"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/images/logo-mini.svg",
+      "PackagePath": "staticwebassets/admin/assets/images/logo-mini.svg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/images/logo.svg",
+      "PackagePath": "staticwebassets/admin/assets/images/logo.svg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/js/.DS_Store",
+      "PackagePath": "staticwebassets/admin/assets/js/.DS_Store"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/js/Chart.min.js",
+      "PackagePath": "staticwebassets/admin/assets/js/Chart.min.js"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/js/chart.js",
+      "PackagePath": "staticwebassets/admin/assets/js/chart.js"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/js/dashboard.js",
+      "PackagePath": "staticwebassets/admin/assets/js/dashboard.js"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/js/data-table.js",
+      "PackagePath": "staticwebassets/admin/assets/js/data-table.js"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/js/dataTables.bootstrap4.js",
+      "PackagePath": "staticwebassets/admin/assets/js/dataTables.bootstrap4.js"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/js/documentation.js",
+      "PackagePath": "staticwebassets/admin/assets/js/documentation.js"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/js/file-upload.js",
+      "PackagePath": "staticwebassets/admin/assets/js/file-upload.js"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/js/hoverable-collapse.js",
+      "PackagePath": "staticwebassets/admin/assets/js/hoverable-collapse.js"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/js/jquery.dataTables.js",
+      "PackagePath": "staticwebassets/admin/assets/js/jquery.dataTables.js"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/js/off-canvas.js",
+      "PackagePath": "staticwebassets/admin/assets/js/off-canvas.js"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/js/tabs.js",
+      "PackagePath": "staticwebassets/admin/assets/js/tabs.js"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/js/template.js",
+      "PackagePath": "staticwebassets/admin/assets/js/template.js"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/pages/.DS_Store",
+      "PackagePath": "staticwebassets/admin/assets/pages/.DS_Store"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/pages/charts/.DS_Store",
+      "PackagePath": "staticwebassets/admin/assets/pages/charts/.DS_Store"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/pages/charts/chartjs.html",
+      "PackagePath": "staticwebassets/admin/assets/pages/charts/chartjs.html"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/pages/forms/.DS_Store",
+      "PackagePath": "staticwebassets/admin/assets/pages/forms/.DS_Store"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/pages/forms/basic_elements.html",
+      "PackagePath": "staticwebassets/admin/assets/pages/forms/basic_elements.html"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/pages/icons/.DS_Store",
+      "PackagePath": "staticwebassets/admin/assets/pages/icons/.DS_Store"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/pages/icons/mdi.html",
+      "PackagePath": "staticwebassets/admin/assets/pages/icons/mdi.html"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/pages/samples/.DS_Store",
+      "PackagePath": "staticwebassets/admin/assets/pages/samples/.DS_Store"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/pages/samples/lock-screen.html",
+      "PackagePath": "staticwebassets/admin/assets/pages/samples/lock-screen.html"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/pages/samples/login-2.html",
+      "PackagePath": "staticwebassets/admin/assets/pages/samples/login-2.html"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/pages/samples/login.html",
+      "PackagePath": "staticwebassets/admin/assets/pages/samples/login.html"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/pages/samples/register-2.html",
+      "PackagePath": "staticwebassets/admin/assets/pages/samples/register-2.html"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/pages/samples/register.html",
+      "PackagePath": "staticwebassets/admin/assets/pages/samples/register.html"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/pages/tables/.DS_Store",
+      "PackagePath": "staticwebassets/admin/assets/pages/tables/.DS_Store"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/pages/tables/basic-table.html",
+      "PackagePath": "staticwebassets/admin/assets/pages/tables/basic-table.html"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/pages/ui-features/.DS_Store",
+      "PackagePath": "staticwebassets/admin/assets/pages/ui-features/.DS_Store"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/pages/ui-features/buttons.html",
+      "PackagePath": "staticwebassets/admin/assets/pages/ui-features/buttons.html"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/pages/ui-features/typography.html",
+      "PackagePath": "staticwebassets/admin/assets/pages/ui-features/typography.html"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/vendors/.DS_Store",
+      "PackagePath": "staticwebassets/admin/assets/vendors/.DS_Store"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/vendors/base/vendor.bundle.base.css",
+      "PackagePath": "staticwebassets/admin/assets/vendors/base/vendor.bundle.base.css"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/vendors/base/vendor.bundle.base.js",
+      "PackagePath": "staticwebassets/admin/assets/vendors/base/vendor.bundle.base.js"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/vendors/chart.js/Chart.min.js",
+      "PackagePath": "staticwebassets/admin/assets/vendors/chart.js/Chart.min.js"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/vendors/datatables.net-bs4/dataTables.bootstrap4.css",
+      "PackagePath": "staticwebassets/admin/assets/vendors/datatables.net-bs4/dataTables.bootstrap4.css"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/vendors/datatables.net-bs4/dataTables.bootstrap4.js",
+      "PackagePath": "staticwebassets/admin/assets/vendors/datatables.net-bs4/dataTables.bootstrap4.js"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/vendors/datatables.net/jquery.dataTables.js",
+      "PackagePath": "staticwebassets/admin/assets/vendors/datatables.net/jquery.dataTables.js"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/vendors/mdi/css/materialdesignicons.min.css",
+      "PackagePath": "staticwebassets/admin/assets/vendors/mdi/css/materialdesignicons.min.css"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/vendors/mdi/fonts/materialdesignicons-webfont.eot",
+      "PackagePath": "staticwebassets/admin/assets/vendors/mdi/fonts/materialdesignicons-webfont.eot"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/vendors/mdi/fonts/materialdesignicons-webfont.svg",
+      "PackagePath": "staticwebassets/admin/assets/vendors/mdi/fonts/materialdesignicons-webfont.svg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/vendors/mdi/fonts/materialdesignicons-webfont.ttf",
+      "PackagePath": "staticwebassets/admin/assets/vendors/mdi/fonts/materialdesignicons-webfont.ttf"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/vendors/mdi/fonts/materialdesignicons-webfont.woff",
+      "PackagePath": "staticwebassets/admin/assets/vendors/mdi/fonts/materialdesignicons-webfont.woff"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/admin/assets/vendors/mdi/fonts/materialdesignicons-webfont.woff2",
+      "PackagePath": "staticwebassets/admin/assets/vendors/mdi/fonts/materialdesignicons-webfont.woff2"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/.DS_Store",
+      "PackagePath": "staticwebassets/assets/.DS_Store"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/images/.DS_Store",
+      "PackagePath": "staticwebassets/assets/images/.DS_Store"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/images/0abdcef1-750c-438b-8481-5eb71df225f2alfa kuryer logo.png",
+      "PackagePath": "staticwebassets/assets/images/0abdcef1-750c-438b-8481-5eb71df225f2alfa kuryer logo.png"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/images/0e2733fc-c0e2-4f82-ab83-ae7b2a5b28a4shop-12-img.jpg",
+      "PackagePath": "staticwebassets/assets/images/0e2733fc-c0e2-4f82-ab83-ae7b2a5b28a4shop-12-img.jpg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/images/1410c9c9-c9b4-4460-842e-445739020f24alfa kuryer logo.png",
+      "PackagePath": "staticwebassets/assets/images/1410c9c9-c9b4-4460-842e-445739020f24alfa kuryer logo.png"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/images/1636c9ae-f1cf-47d5-95b0-1c4c2668f303alfa kuryer logo.png",
+      "PackagePath": "staticwebassets/assets/images/1636c9ae-f1cf-47d5-95b0-1c4c2668f303alfa kuryer logo.png"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/images/21bc5665-b104-4ba8-8315-845923bf4da3fiorello3.jpeg",
+      "PackagePath": "staticwebassets/assets/images/21bc5665-b104-4ba8-8315-845923bf4da3fiorello3.jpeg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/images/22c8f5f9-ad1a-4a7e-9556-5406a6367684apple.webp",
+      "PackagePath": "staticwebassets/assets/images/22c8f5f9-ad1a-4a7e-9556-5406a6367684apple.webp"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/images/25c496f8-1900-4c79-b999-dbd5ac45334afiorello.jpeg",
+      "PackagePath": "staticwebassets/assets/images/25c496f8-1900-4c79-b999-dbd5ac45334afiorello.jpeg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/images/28359f73-5d8d-4771-ab24-9f06575d054ffiorello.jpeg",
+      "PackagePath": "staticwebassets/assets/images/28359f73-5d8d-4771-ab24-9f06575d054ffiorello.jpeg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/images/28c875b1-3796-469c-a7bc-ba9cab24bb2dfiorello.jpeg",
+      "PackagePath": "staticwebassets/assets/images/28c875b1-3796-469c-a7bc-ba9cab24bb2dfiorello.jpeg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/images/323793a4-cc6d-4107-8352-291d0119c118fiorello.jpeg",
+      "PackagePath": "staticwebassets/assets/images/323793a4-cc6d-4107-8352-291d0119c118fiorello.jpeg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/images/58607443-c8da-4485-8a3f-c4b880a67c47qr (3).png",
+      "PackagePath": "staticwebassets/assets/images/58607443-c8da-4485-8a3f-c4b880a67c47qr (3).png"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/images/60d5b4b7-11b3-4e43-bad0-8fa58824a1f3alfa kuryer logo.png",
+      "PackagePath": "staticwebassets/assets/images/60d5b4b7-11b3-4e43-bad0-8fa58824a1f3alfa kuryer logo.png"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/images/61a4cbe0-d2e4-431f-a5fa-859b3f1161a7fiorello1.jpeg",
+      "PackagePath": "staticwebassets/assets/images/61a4cbe0-d2e4-431f-a5fa-859b3f1161a7fiorello1.jpeg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/images/649d005e-d930-4064-b26c-ef4d95c97262qr (3).png",
+      "PackagePath": "staticwebassets/assets/images/649d005e-d930-4064-b26c-ef4d95c97262qr (3).png"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/images/6bb951e8-5124-46b0-8b9f-03a17b8cdc1833.jpeg",
+      "PackagePath": "staticwebassets/assets/images/6bb951e8-5124-46b0-8b9f-03a17b8cdc1833.jpeg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/images/6ed51b9e-ed7c-4699-897d-e8c6551a050falfa kuryer logo.png",
+      "PackagePath": "staticwebassets/assets/images/6ed51b9e-ed7c-4699-897d-e8c6551a050falfa kuryer logo.png"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/images/72539927-af27-473a-918b-62c8cb663f4e1.3.jpeg",
+      "PackagePath": "staticwebassets/assets/images/72539927-af27-473a-918b-62c8cb663f4e1.3.jpeg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/images/76afadca-4fba-423f-9dba-9400fae5a91aalfa kuryer logo.png",
+      "PackagePath": "staticwebassets/assets/images/76afadca-4fba-423f-9dba-9400fae5a91aalfa kuryer logo.png"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/images/862c489d-a44e-4915-a765-020f175e7b36apple.webp",
+      "PackagePath": "staticwebassets/assets/images/862c489d-a44e-4915-a765-020f175e7b36apple.webp"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/images/8ffed606-4ee4-41b7-a3b6-2231be7c30e8apple.webp",
+      "PackagePath": "staticwebassets/assets/images/8ffed606-4ee4-41b7-a3b6-2231be7c30e8apple.webp"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/images/907f16cb-0172-4613-9835-d41a63846bc0apple.webp",
+      "PackagePath": "staticwebassets/assets/images/907f16cb-0172-4613-9835-d41a63846bc0apple.webp"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/images/954ab114-fcad-48b7-abb0-2886ef90e0c71.1.jpeg",
+      "PackagePath": "staticwebassets/assets/images/954ab114-fcad-48b7-abb0-2886ef90e0c71.1.jpeg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/images/98f3e4ea-a08a-4b8d-9fbb-61caaf6aa2cf22.jpeg",
+      "PackagePath": "staticwebassets/assets/images/98f3e4ea-a08a-4b8d-9fbb-61caaf6aa2cf22.jpeg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/images/a4ebbf2c-4f1a-4ef3-a3ca-e42bbda962e1credit copy.svg",
+      "PackagePath": "staticwebassets/assets/images/a4ebbf2c-4f1a-4ef3-a3ca-e42bbda962e1credit copy.svg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/images/b4c631e0-b67c-4b64-a6c4-126603584c62fiorello2.jpeg",
+      "PackagePath": "staticwebassets/assets/images/b4c631e0-b67c-4b64-a6c4-126603584c62fiorello2.jpeg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/images/b895eec3-7138-43a3-804e-f06d591e2d50slider1 (1).png",
+      "PackagePath": "staticwebassets/assets/images/b895eec3-7138-43a3-804e-f06d591e2d50slider1 (1).png"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/images/bff100d8-6874-4db7-9264-2706a3da986b1.2.jpeg",
+      "PackagePath": "staticwebassets/assets/images/bff100d8-6874-4db7-9264-2706a3da986b1.2.jpeg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/images/d4feccd0-5257-453c-b0b5-4691e5e7c1cffiorello.jpeg",
+      "PackagePath": "staticwebassets/assets/images/d4feccd0-5257-453c-b0b5-4691e5e7c1cffiorello.jpeg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/images/d7bc2a1b-a494-45ae-9efd-d3538790001bfiorello.jpeg",
+      "PackagePath": "staticwebassets/assets/images/d7bc2a1b-a494-45ae-9efd-d3538790001bfiorello.jpeg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/images/daf316cd-33e7-42c1-88d4-7152e5f6e0c1apple.webp",
+      "PackagePath": "staticwebassets/assets/images/daf316cd-33e7-42c1-88d4-7152e5f6e0c1apple.webp"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/images/e2893de7-6b6a-46e6-8613-35215b0184a3alfa kuryer logo.png",
+      "PackagePath": "staticwebassets/assets/images/e2893de7-6b6a-46e6-8613-35215b0184a3alfa kuryer logo.png"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/images/f2637e55-e90b-41a5-a124-c55d222c83f7fiorello.jpeg",
+      "PackagePath": "staticwebassets/assets/images/f2637e55-e90b-41a5-a124-c55d222c83f7fiorello.jpeg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/images/f689d921-c12d-47ab-b034-12183e0bb202alfa kuryer logo.png",
+      "PackagePath": "staticwebassets/assets/images/f689d921-c12d-47ab-b034-12183e0bb202alfa kuryer logo.png"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/images/fff277dc-d304-402c-8db5-d1d394b98406home.jpg",
+      "PackagePath": "staticwebassets/assets/images/fff277dc-d304-402c-8db5-d1d394b98406home.jpg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/images/h3-slider-background-2.jpeg",
+      "PackagePath": "staticwebassets/assets/images/h3-slider-background-2.jpeg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/images/h3-slider-background-3.jpeg",
+      "PackagePath": "staticwebassets/assets/images/h3-slider-background-3.jpeg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/images/h3-slider-background.jpeg",
+      "PackagePath": "staticwebassets/assets/images/h3-slider-background.jpeg"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/js/.DS_Store",
+      "PackagePath": "staticwebassets/assets/js/.DS_Store"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/js/accordions.js",
+      "PackagePath": "staticwebassets/assets/js/accordions.js"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/js/homepage.js",
+      "PackagePath": "staticwebassets/assets/js/homepage.js"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/js/main.js",
+      "PackagePath": "staticwebassets/assets/js/main.js"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/js/orangeamarylls.js",
+      "PackagePath": "staticwebassets/assets/js/orangeamarylls.js"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/js/owl.carousel.min.js",
+      "PackagePath": "staticwebassets/assets/js/owl.carousel.min.js"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/js/parallax.min.js",
+      "PackagePath": "staticwebassets/assets/js/parallax.min.js"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/js/progressbar.js",
+      "PackagePath": "staticwebassets/assets/js/progressbar.js"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/js/shoplist.js",
+      "PackagePath": "staticwebassets/assets/js/shoplist.js"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/js/tabs.js",
+      "PackagePath": "staticwebassets/assets/js/tabs.js"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/scss/.DS_Store",
+      "PackagePath": "staticwebassets/assets/scss/.DS_Store"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/scss/owl.carousel.min.css",
+      "PackagePath": "staticwebassets/assets/scss/owl.carousel.min.css"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/scss/owl.theme.default.min.css",
+      "PackagePath": "staticwebassets/assets/scss/owl.theme.default.min.css"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/scss/style.css",
+      "PackagePath": "staticwebassets/assets/scss/style.css"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/scss/style.css.map",
+      "PackagePath": "staticwebassets/assets/scss/style.css.map"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/scss/style.scss",
+      "PackagePath": "staticwebassets/assets/scss/style.scss"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.Fiorello.App.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.build.Fiorello.App.props",
+      "PackagePath": "build\\Fiorello.App.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.Fiorello.App.props",
+      "PackagePath": "buildMultiTargeting\\Fiorello.App.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.Fiorello.App.props",
+      "PackagePath": "buildTransitive\\Fiorello.App.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

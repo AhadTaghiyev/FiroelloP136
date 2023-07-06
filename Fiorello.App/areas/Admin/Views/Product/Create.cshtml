@@ -1,0 +1,81 @@
+﻿@model Product
+<div class="container">
+    <form method="post" enctype="multipart/form-data">
+        <div class="alert alert-danger" asp-validation-summary="ModelOnly"></div>
+        <div class="form-group">
+            <label asp-for="Name"></label>
+            <input class="form-control" asp-for="Name">
+            <span class="text text-danger" asp-validation-for="Name"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Price"></label>
+            <input class="form-control" asp-for="Price">
+            <span class="text text-danger" asp-validation-for="Price"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Weight"></label>
+            <input class="form-control" asp-for="Weight">
+            <span class="text text-danger" asp-validation-for="Weight"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Dimensions"></label>
+            <input class="form-control" asp-for="Dimensions">
+            <span class="text text-danger" asp-validation-for="Dimensions"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Title"></label>
+            <input class="form-control" asp-for="Title">
+            <span class="text text-danger" asp-validation-for="Title"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Info"></label>
+            <input class="form-control" asp-for="Info">
+            <span class="text text-danger" asp-validation-for="Info"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Description"></label>
+            <input class="form-control" asp-for="Description">
+            <span class="text text-danger" asp-validation-for="Description"></span>
+        </div>
+        <div class="form-group">
+            <select asp-for="DiscountId" class="form-select" aria-label="Disabled select example">
+                <option value="0">Choose Percent</option>
+                @foreach (var item in ViewBag.Discounts)
+                {
+
+                    <option value="@item.Id">@item.Percent</option>
+
+                }
+            </select>
+            <span class="text text-danger" asp-validation-for="DiscountId"></span>
+        </div>
+        <div class="form-group">
+            <select multiple asp-for="CategoryIds" class="form-select" aria-label="Disabled select example">
+                @foreach (var item in ViewBag.Categories)
+                {
+                    <option value="@item.Id">@item.Name</option>
+
+                }
+            </select>
+            <span class="text text-danger" asp-validation-for="CategoryIds"></span>
+        </div>
+        <div class="form-group">
+            <select multiple asp-for="TagIds" class="form-select" aria-label="Disabled select example">
+                @foreach (var item in ViewBag.Tags)
+                {
+                    <option value="@item.Id">@item.Name</option>
+
+                }
+            </select>
+            <span class="text text-danger" asp-validation-for="TagIds"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="FormFiles"></label>
+            <input multiple  accept="image/*" type="file" class="form-control" asp-for="FormFiles">
+            <span class="text text-danger" asp-validation-for="FormFiles"></span>
+        </div>
+        @Html.AntiForgeryToken()
+        <button type="submit">Create</button>
+    </form>
+</div>

@@ -1,0 +1,12 @@
+/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.Core/bin/Debug/net6.0/Fiorello.Core.deps.json
+/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.Core/bin/Debug/net6.0/Fiorello.Core.dll
+/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.Core/bin/Debug/net6.0/Fiorello.Core.pdb
+/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.Core/obj/Debug/net6.0/Fiorello.Core.csproj.AssemblyReference.cache
+/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.Core/obj/Debug/net6.0/Fiorello.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.Core/obj/Debug/net6.0/Fiorello.Core.AssemblyInfoInputs.cache
+/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.Core/obj/Debug/net6.0/Fiorello.Core.AssemblyInfo.cs
+/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.Core/obj/Debug/net6.0/Fiorello.Core.csproj.CoreCompileInputs.cache
+/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.Core/obj/Debug/net6.0/Fiorello.Core.dll
+/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.Core/obj/Debug/net6.0/refint/Fiorello.Core.dll
+/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.Core/obj/Debug/net6.0/Fiorello.Core.pdb
+/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.Core/obj/Debug/net6.0/ref/Fiorello.Core.dll
