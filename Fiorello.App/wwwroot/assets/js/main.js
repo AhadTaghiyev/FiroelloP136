@@ -2,37 +2,37 @@ $(document).ready(function () {
 
     AOS.init();
 
-    $(".nav-left a").click(function (e) {
-        e.preventDefault();
-        window.open("index.html", "_self")
-    })
+    //$(".nav-left a").click(function (e) {
+    //    e.preventDefault();
+    //    window.open("index.html", "_self")
+    //})
 
-    $(".home li:nth-child(1) a").click(function (e) {
-        e.preventDefault();
-        window.open("index.html", "_self")
-    })
+    //$(".home li:nth-child(1) a").click(function (e) {
+    //    e.preventDefault();
+    //    window.open("index.html", "_self")
+    //})
 
-    $(".producttypes li:nth-child(2) a").click(function (e) {
-        e.preventDefault();
-        window.open("orangeamarylls.html", "_self")
-    })
+    //$(".producttypes li:nth-child(2) a").click(function (e) {
+    //    e.preventDefault();
+    //    window.open("orangeamarylls.html", "_self")
+    //})
 
-    $(".classic li:nth-child(2) a").click(function (e) {
-        e.preventDefault();
-        window.open("tabs.html", "_self")
-    })
+    //$(".classic li:nth-child(2) a").click(function (e) {
+    //    e.preventDefault();
+    //    window.open("tabs.html", "_self")
+    //})
 
-    $(".classic li:nth-child(1) a").click(function (e) {
-        e.preventDefault();
-        window.open("accordions.html", "_self")
-    })
+    //$(".classic li:nth-child(1) a").click(function (e) {
+    //    e.preventDefault();
+    //    window.open("accordions.html", "_self")
+    //})
 
 
 
-    $(".infographic li:nth-child(5) a").click(function (e) {
-        e.preventDefault();
-        window.open("progressbar.html", "_self")
-    })
+    //$(".infographic li:nth-child(5) a").click(function (e) {
+    //    e.preventDefault();
+    //    window.open("progressbar.html", "_self")
+    //})
 
 
 

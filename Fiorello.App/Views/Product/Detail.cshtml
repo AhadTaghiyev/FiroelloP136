@@ -188,37 +188,7 @@
 <section id="products">
     <div class="container">
         <div class="row">
-
-            @foreach (var item in Model.Products)
-            {
-                <a asp-controller="product" asp-action="detail" asp-route-id="@item.Id" style="color: #6D6A8F;text-decoration:none" data-aos="flip-up" data-aos-duration="1000" class="product col-lg-3 col-md-6 popular winter all">
-                    <div class="productImage">
-                        <img src="~/assets/images/@item.ProductImages.FirstOrDefault(x=>x.IsMain).Image"
-                             alt="">
-
-                    </div>
-                    <div class="productTitle">
-                        <p>@item.Name</p>
-                    </div>
-                    <div class="productPrice">
-                        @if (item.Discount != null)
-                        {
-                            <span class="addToCardBtn" data-id="5">Add to cart</span> <span style="text-decoration: line-through;">$@item.Price</span>
-                            <span>$</span><span>@(item.Price-(item.Price*((decimal)item.Discount.Percent/100)))</span>
-                        }
-                        else
-                        {
-                            <span class="addToCardBtn" data-id="1">Add to cart</span><span>$</span><span>@item.Price</span>
-                        }
-                    </div>
-                    <div class="addToCart">
-
-                    </div>
-                </a>
-            }
-
-
-
+            @await Html.PartialAsync("_ProductPartialView", Model.Products)
         </div>
     </div>
 </section>

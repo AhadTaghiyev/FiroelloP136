@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using Fiorello.App.Context;
 using Fiorello.App.Extentions;
 using Fiorello.App.Helpers;
 using Fiorello.Core.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -14,6 +16,8 @@ using Microsoft.EntityFrameworkCore;
 namespace Fiorello.App.areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin,SuperAdmin")]
+
     public class EmployeeController : Controller
     {
         private readonly FiorelloDbContext _context;

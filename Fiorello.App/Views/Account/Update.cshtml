@@ -1,5 +1,4 @@
-﻿@model AppUser
-    <div id="message" style="display:none">@TempData["updateduser"]</div>
+﻿@model UserUpdateViewModel
 <section class="vh-100" style="background-color: #eee;">
     <div class="container h-100">
         <div class="row d-flex justify-content-center align-items-center h-100">
@@ -16,7 +15,7 @@
                                     <div class="d-flex flex-row align-items-center mb-4">
                                         <i class="fas fa-user fa-lg me-3 fa-fw"></i>
                                         <div class="form-outline flex-fill mb-0">
-                                            <input disabled asp-for="Name" class="form-control" />
+                                            <input asp-for="Name" class="form-control" />
                                             <label class="form-label" asp-for="Name"></label>
                                         </div>
                                         <span class="text text-danger" asp-validation-for="Name"></span>
@@ -24,7 +23,7 @@
                                     <div class="d-flex flex-row align-items-center mb-4">
                                         <i class="fas fa-user fa-lg me-3 fa-fw"></i>
                                         <div class="form-outline flex-fill mb-0">
-                                            <input disabled asp-for="Surname" class="form-control" />
+                                            <input asp-for="Surname" class="form-control" />
                                             <label class="form-label" asp-for="Surname"></label>
                                         </div>
                                         <span class="text text-danger" asp-validation-for="Surname"></span>
@@ -33,7 +32,7 @@
                                     <div class="d-flex flex-row align-items-center mb-4">
                                         <i class="fas fa-user fa-lg me-3 fa-fw"></i>
                                         <div class="form-outline flex-fill mb-0">
-                                            <input disabled asp-for="Email" class="form-control" />
+                                            <input asp-for="Email" class="form-control" />
                                             <label class="form-label" asp-for="Email"></label>
                                         </div>
                                         <span class="text text-danger" asp-validation-for="Email"></span>
@@ -42,16 +41,46 @@
                                     <div class="d-flex flex-row align-items-center mb-4">
                                         <i class="fas fa-user fa-lg me-3 fa-fw"></i>
                                         <div class="form-outline flex-fill mb-0">
-                                            <input disabled asp-for="UserName" class="form-control" />
+                                            <input asp-for="UserName" class="form-control" />
                                             <label class="form-label" asp-for="UserName"></label>
                                         </div>
                                         <span class="text text-danger" asp-validation-for="UserName"></span>
 
                                     </div>
-
                                     <div class="d-flex flex-row align-items-center mb-4">
-                                       <a asp-controller="account" asp-action="update" class="btn btn-warning">Update</a>
+                                        <i class="fas fa-user fa-lg me-3 fa-fw"></i>
+                                        <div class="form-outline flex-fill mb-0">
+                                            <input asp-for="CurrentPassword" class="form-control" />
+                                            <label class="form-label" asp-for="CurrentPassword"></label>
+                                        </div>
+                                        <span class="text text-danger" asp-validation-for="CurrentPassword"></span>
+
                                     </div>
+                                    <div class="d-flex flex-row align-items-center mb-4">
+                                        <i class="fas fa-user fa-lg me-3 fa-fw"></i>
+                                        <div class="form-outline flex-fill mb-0">
+                                            <input asp-for="NewPassword" class="form-control" />
+                                            <label class="form-label" asp-for="NewPassword"></label>
+                                        </div>
+                                        <span class="text text-danger" asp-validation-for="NewPassword"></span>
+
+                                    </div>
+                                    <div class="d-flex flex-row align-items-center mb-4">
+                                        <i class="fas fa-user fa-lg me-3 fa-fw"></i>
+                                        <div class="form-outline flex-fill mb-0">
+                                            <input asp-for="ConfirmNewPassword" class="form-control" />
+                                            <label class="form-label" asp-for="ConfirmNewPassword"></label>
+
+                                        </div>
+                                        <span class="text text-danger" asp-validation-for="ConfirmNewPassword"></span>
+
+                                    </div>
+
+
+                                    <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
+                                        <button type="submit" class="btn btn-primary btn-lg">Update</button>
+                                    </div>
+
                                 </form>
 
                             </div>
@@ -68,9 +97,3 @@
         </div>
     </div>
 </section>
-<script>
-    const messageAlert = document.getElementById("message");
-    if (messageAlert.innerHTML != "") {
-        alert("User updated")
-    }
-</script>

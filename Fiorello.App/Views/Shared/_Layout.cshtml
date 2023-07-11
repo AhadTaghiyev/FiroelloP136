@@ -249,45 +249,45 @@
                             <div class="basketList">
                                 <div class="listProducts">
                                     @foreach (var item in basketItemViewModels)
+                                    {
                                         {
-                                            {
-                                                TotalPrice += item.Price*item.Count;
-                                                count++;
-                                            }
-                                <div class="product">
-                                    <div class="image">
-                                        <img src="~/assets/images/@item.Image">
-                                    </div>
-                                    <div>
-                                        <p class="product-name">@item.Name</p>
-                                        <p>
-                                            <span class="product-count">
-                                                @item.Count
-                                            </span>
-                                            X
-                                            <span class="product-price">
-                                                @item.Price
-                                            </span>
-                                        </p>
-                                    </div>
-                                    <div>
-                                        <div>
-                                            <a asp-controller="product" asp-action="RemoveBasket" asp-route-id="@item.ProductId" class="btn-product-delete" data-id="">x</a>
-                                        </div>
-                                    </div>
+                                            TotalPrice += item.Price * item.Count;
+                                            count++;
+                                        }
+                                        <div class="product">
+                                            <div class="image">
+                                                <img src="~/assets/images/@item.Image">
+                                            </div>
+                                            <div>
+                                                <p class="product-name">@item.Name</p>
+                                                <p>
+                                                    <span class="product-count">
+                                                        @item.Count
+                                                    </span>
+                                                    X
+                                                    <span class="product-price">
+                                                        @item.Price
+                                                    </span>
+                                                </p>
+                                            </div>
+                                            <div>
+                                                <div>
+                                                    <a asp-controller="product" asp-action="RemoveBasket" asp-route-id="@item.ProductId" class="btn-product-delete" data-id="">x</a>
+                                                </div>
+                                            </div>
 
-                                </div>
-                            }
+                                        </div>
+                                    }
                                 </div>
 
                                 <div class="price-buttons">
                                     <div class="totalPrice">
                                         <div class="totalText">
-                                            <span>TOTAL :@count</span>
+                                            <span id="totalCount">TOTAL :@count</span>
                                         </div>
                                         <div class="priceText">
                                             <span>$</span>
-                                            <span>@TotalPrice</span>
+                                            <span id="totalPrice">@TotalPrice</span>
                                         </div>
                                     </div>
                                     <div class="viewCart-checkOut">
@@ -993,7 +993,8 @@
     <script src="~/assets/js/owl.carousel.min.js"></script>
     <script src="~/assets/js/main.js"></script>
     <script src="~/assets/js/homepage.js"></script>
-    @RenderSection("Js",false)
+
+    @RenderSection("Js", false)
 
 </body>
 

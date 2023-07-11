@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rLzytAwKEWAasLsu8SHTJyhfQKCc8q6RdVXqkOB4440=",
+  "Hash": "ko/km0oG7Qjc83e9MJX+Xn813Duj1OBeTNzkzJwbtGI=",
   "Source": "Fiorello.App",
   "BasePath": "_content/Fiorello.App",
   "Mode": "Default",
@@ -2769,6 +2769,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/scss/style.scss"
+    },
+    {
+      "Identity": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/Templates/EmailExample.html",
+      "SourceId": "Fiorello.App",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/",
+      "BasePath": "_content/Fiorello.App",
+      "RelativePath": "assets/Templates/EmailExample.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/Templates/EmailExample.html"
     }
   ]
 }

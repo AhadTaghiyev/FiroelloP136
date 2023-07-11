@@ -14,6 +14,7 @@
   <ItemGroup>
     <Content Remove="wwwroot\" />
     <Content Remove="wwwroot\admin\" />
+    <Content Remove="wwwroot\assets\Templates\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="wwwroot\" />
@@ -36,6 +37,9 @@
     <Folder Include="Services\Interfaces\" />
     <Folder Include="Services\Implementations\" />
     <Folder Include="Views\Account\" />
+    <Folder Include="areas\Admin\Views\Account\" />
+    <Folder Include="wwwroot\assets\Templates\" />
+    <Folder Include="ServiceRegisterations\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="areas\" />
@@ -56,6 +60,8 @@
     <None Remove="Services\Interfaces\" />
     <None Remove="Services\Implementations\" />
     <None Remove="Views\Account\" />
+    <None Remove="areas\Admin\Views\Account\" />
+    <None Remove="ServiceRegisterations\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.19" />

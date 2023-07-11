@@ -9,6 +9,11 @@
         background-color:@(string.IsNullOrWhiteSpace(color)?"white":color) !important;
     }*@
 </style>
+@if (!string.IsNullOrWhiteSpace((string)TempData["Register"]))
+{
+    <div style="display:none" id="alert-message">@TempData["Register"]</div>
+}
+
 <section id="introduce" class="col-lg-12 col-sm-12 col-12">
     <div class="images">
 
@@ -112,40 +117,8 @@
                     </div>
                 </div>
             </div>
-            @foreach (var item in Model.Products)
-            {
-                <a style="color: #6D6A8F;text-decoration:none" asp-controller="product" asp-action="addbasket" asp-route-id="@item.Id" data-aos-offset="100"
-                     class="product col-lg-3 col-md-6
-                         all">
-                    <div class="productImage">
-                        <img src="~/assets/images/@item.ProductImages.FirstOrDefault(x=>x.IsMain).Image"
-                             alt="">
-
-                    </div>
-                    <div class="productTitle">
-                        <p>@item.Name</p>
-                    </div>
-                    <div class="productPrice">
-                        
-                            @if (item.Discount != null)
-                            {
-                                <span class="addToCardBtn" data-id="5">Add to cart</span> <span style="text-decoration: line-through;">$@item.Price</span>
-                                <span>$</span><span>@(item.Price-(item.Price*((decimal)item.Discount.Percent/100)))</span>
-                            }
-                            else
-                            {
-                                <span class="addToCardBtn" data-id="1">Add to cart</span><span>$</span><span>@item.Price</span>
-                            }
-                        
-
-                    </div>
-                    <div class="addToCart">
-
-                    </div>
-
-                </a>
-            }
-
+     
+               @await Html.PartialAsync("_ProductPartialView",Model.Products)
 
         </div>
     </div>
@@ -306,7 +279,7 @@
                         </div>
                         <div class="title">
                             <h3>
-                               @item.Description
+                                @item.Description
                             </h3>
                         </div>
                         <div class="name">
@@ -322,3 +295,23 @@
         </div>
     </div>
 </section>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>const alertMessage = document.getElementById("alert-message");
+    if (alertMessage != undefined) {
+        const message = alertMessage.innerHTML;
+        if (message != "") {
+            Swal.fire({
+                title: `${message}`,
+                width: 600,
+                padding: '3em',
+                color: '#716add',
+                background: '#fff url(/images/trees.png)',
+                backdrop: `
+    rgba(0,0,123,0.4)
+    url("/images/nyan-cat.gif")
+    left top
+    no-repeat
+  `
+            })
+        }
+    }</script>

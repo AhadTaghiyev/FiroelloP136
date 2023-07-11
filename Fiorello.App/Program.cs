@@ -1,4 +1,5 @@
 ﻿using Fiorello.App.Context;
+using Fiorello.App.ServiceRegisterations;
 using Fiorello.App.Services.Implementations;
 using Fiorello.App.Services.Interfaces;
 using Fiorello.Core.Entities;
@@ -10,23 +11,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddDbContext<FiorelloDbContext>(opt =>
-{
-    opt.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
-});
 builder.Services.AddHttpContextAccessor();
-builder.Services.AddScoped<IBasketService,BasketService>();
-builder.Services.AddIdentity<AppUser,IdentityRole>()
-    .AddEntityFrameworkStores<FiorelloDbContext>();
-
-builder.Services.Configure<IdentityOptions>(options =>
-{
-    options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
-    options.Lockout.MaxFailedAccessAttempts = 3;
-    options.Lockout.AllowedForNewUsers = true;
-    options.Password.RequireDigit = true;
-    options.Password.RequiredLength = 8;
-});
+builder.Services.Register(builder.Configuration);
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

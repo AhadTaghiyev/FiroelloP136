@@ -429,6 +429,10 @@
       "PackagePath": "staticwebassets/assets/.DS_Store"
     },
     {
+      "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/Templates/EmailExample.html",
+      "PackagePath": "staticwebassets/assets/Templates/EmailExample.html"
+    },
+    {
       "Id": "/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/wwwroot/assets/images/.DS_Store",
       "PackagePath": "staticwebassets/assets/images/.DS_Store"
     },
