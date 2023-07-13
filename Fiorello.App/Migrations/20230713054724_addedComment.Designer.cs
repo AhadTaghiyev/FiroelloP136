@@ -4,6 +4,7 @@ using Fiorello.App.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Fiorello.App.Migrations
 {
     [DbContext(typeof(FiorelloDbContext))]
-    partial class FiorelloDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230713054724_addedComment")]
+    partial class addedComment
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -251,7 +253,7 @@ namespace Fiorello.App.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("Comments");
+                    b.ToTable("Comment");
                 });
 
             modelBuilder.Entity("Fiorello.Core.Entities.Discount", b =>

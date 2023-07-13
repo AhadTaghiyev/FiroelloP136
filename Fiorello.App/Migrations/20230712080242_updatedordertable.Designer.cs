@@ -4,6 +4,7 @@ using Fiorello.App.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Fiorello.App.Migrations
 {
     [DbContext(typeof(FiorelloDbContext))]
-    partial class FiorelloDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230712080242_updatedordertable")]
+    partial class updatedordertable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -215,43 +217,6 @@ namespace Fiorello.App.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Categories");
-                });
-
-            modelBuilder.Entity("Fiorello.Core.Entities.Comment", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
-
-                    b.Property<string>("AppUserId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<DateTime>("CreatedDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
-                    b.Property<int>("ProductId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Text")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("UpdatedDate")
-                        .HasColumnType("datetime2");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("AppUserId");
-
-                    b.HasIndex("ProductId");
-
-                    b.ToTable("Comments");
                 });
 
             modelBuilder.Entity("Fiorello.Core.Entities.Discount", b =>
@@ -757,25 +722,6 @@ namespace Fiorello.App.Migrations
                     b.Navigation("Product");
                 });
 
-            modelBuilder.Entity("Fiorello.Core.Entities.Comment", b =>
-                {
-                    b.HasOne("Fiorello.Core.Entities.AppUser", "AppUser")
-                        .WithMany("Comments")
-                        .HasForeignKey("AppUserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Fiorello.Core.Entities.Product", "Product")
-                        .WithMany("Comments")
-                        .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("AppUser");
-
-                    b.Navigation("Product");
-                });
-
             modelBuilder.Entity("Fiorello.Core.Entities.Employee", b =>
                 {
                     b.HasOne("Fiorello.Core.Entities.Position", "Position")
@@ -930,8 +876,6 @@ namespace Fiorello.App.Migrations
                 {
                     b.Navigation("Baskets");
 
-                    b.Navigation("Comments");
-
                     b.Navigation("Orders");
                 });
 
@@ -962,8 +906,6 @@ namespace Fiorello.App.Migrations
 
             modelBuilder.Entity("Fiorello.Core.Entities.Product", b =>
                 {
-                    b.Navigation("Comments");
-
                     b.Navigation("ProductCategories");
 
                     b.Navigation("ProductImages");

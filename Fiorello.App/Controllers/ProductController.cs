@@ -30,6 +30,29 @@ namespace Fiorello.App.Controllers
             _basketService = basketService;
         }
 
+        public async Task<IActionResult> Index(int? id)
+        {
+            IEnumerable<Product> products = default;
+
+            if (id == null || id == 0)
+            {
+                products= await _context.Products.Where(x => !x.IsDeleted)
+                .Include(x => x.ProductImages.Where(x => !x.IsDeleted && x.IsMain))
+                 .Include(x => x.Discount).ToListAsync();
+            }
+            else
+            {
+                
+                products = await _context.Products.Where(x => !x.IsDeleted && x.ProductCategories.Any(y=>y.CategoryId==id))
+                .Include(x => x.ProductImages.Where(x => !x.IsDeleted && x.IsMain))
+                 .Include(x => x.Discount)
+                 .Include(x=>x.ProductCategories)
+                 .ToListAsync();
+            }
+
+
+            return View(products);
+        }
 
         public async Task<IActionResult> Detail(int id)
         {
@@ -41,6 +64,8 @@ namespace Fiorello.App.Controllers
                         .ThenInclude(x => x.Tag)
                         .Include(x => x.ProductCategories)
                         .ThenInclude(x => x.Category)
+                        .Include(x=>x.Comments)
+                        .ThenInclude(x=>x.AppUser)
                       .Where(x => x.Id == id && !x.IsDeleted).FirstOrDefaultAsync(),
                 Products = await _context.Products
                        .Include(x => x.ProductImages.Where(x => !x.IsDeleted)).Take(4)
@@ -50,16 +75,21 @@ namespace Fiorello.App.Controllers
             return View(productViewModel);
         }
 
-        public async Task<IActionResult> AddBasket(int id)
+        public async Task<IActionResult> AddBasket(int id,int? count)
         {
-            await _basketService.AddBasket(id);
+            await _basketService.AddBasket(id,count);
+           
+            return Json(new {status=200});
+        }
+        public async Task<IActionResult> GetAllBaskets()
+        {
             var result = await _basketService.GetAllBaskets();
             return Json(result);
         }
         public async Task<IActionResult> RemoveBasket(int id)
         {
             await _basketService.Remove(id);
-            return RedirectToAction("index", "home");
+            return Redirect(Request.Headers["Referer"].ToString());
         }
     }
 }

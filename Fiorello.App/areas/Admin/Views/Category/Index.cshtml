@@ -1,6 +1,6 @@
 ﻿@model IEnumerable<Category>
 <div class="container">
-    <table class="table table-sm">
+    <table class="table table-lg">
         <thead>
             <tr>
                 <th scope="col">Id</th>
@@ -23,8 +23,25 @@
 
         </tbody>
     </table>
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+            @for (int i = 1; i <= ViewBag.TotalPage; i++)
+            {
+
+
+                @if (i == ViewBag.CurrentPage)
+                {
+                    <li class="page-item disabled"><a  class=" page-link" asp-controller="category" asp-action="index" asp-route-page="@i">@i</a></li>
+                }
+                else
+                {
+                    <li class="page-item"><a  class=" page-link" asp-controller="category" asp-action="index" asp-route-page="@i">@i</a></li>
+                }
+            }
+        </ul>
+    </nav>
     <div>
-        <a asp-controller="category" asp-action="create" style="display: block; text-decoration: none; color: white; width: 100%; height: 100%"  > <div style="width:100%; "  class="btn btn-outline-success">Category yarat </div></a>
+        <a asp-controller="category" asp-action="create" style="display: block; text-decoration: none; color: white; width: 100%; height: 100%"> <div style="width:100%; " class="btn btn-outline-success">Category yarat </div></a>
     </div>
 
 </div>

@@ -40,6 +40,7 @@
     <Folder Include="areas\Admin\Views\Account\" />
     <Folder Include="wwwroot\assets\Templates\" />
     <Folder Include="ServiceRegisterations\" />
+    <Folder Include="Views\Order\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="areas\" />
@@ -53,7 +54,6 @@
     <None Remove="Helpers\" />
     <None Remove="ViewModels\" />
     <None Remove="areas\Admin\Views\Employee\" />
-    <None Remove="areas\Admin\Views\Category %28copy%29\" />
     <None Remove="areas\Admin\Views\Tag %28copy%29\" />
     <None Remove="Views\Product\" />
     <None Remove="Services\" />
@@ -62,6 +62,7 @@
     <None Remove="Views\Account\" />
     <None Remove="areas\Admin\Views\Account\" />
     <None Remove="ServiceRegisterations\" />
+    <None Remove="Views\Order\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.19" />

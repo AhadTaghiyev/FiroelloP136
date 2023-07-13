@@ -23,13 +23,13 @@ namespace Fiorello.App.Services.Implementations
             _userManager = userManager;
         }
 
-        public async Task AddBasket(int id)
+        public async Task AddBasket(int id,int? count)
         {
             if (!await _context.Products.AnyAsync(x => x.Id == id))
             {
                 throw new Exception("Item not found");
             }
-            if (_httpContext.HttpContext.User.Identity.IsAuthenticated)
+            if (_httpContext.HttpContext.User.Identity.IsAuthenticated&& _httpContext.HttpContext.User.IsInRole("User"))
             {
                 AppUser appUser = await _userManager.FindByNameAsync(_httpContext.HttpContext.User.Identity.Name);
 
@@ -47,7 +47,7 @@ namespace Fiorello.App.Services.Implementations
                     {
                         Basket = basket,
                         ProductId = id,
-                        ProductCount = 1
+                        ProductCount = count??1
                     };
                     await _context.AddAsync(basketItem);
                 }
@@ -56,15 +56,16 @@ namespace Fiorello.App.Services.Implementations
                     BasketItem basketItem = basket.BasketItems.FirstOrDefault(x=>x.ProductId==id);
                     if (basketItem != null)
                     {
-                        basketItem.ProductCount++;
+                        basketItem.ProductCount += count ??  1; 
                     }
                     else
                     {
+
                          basketItem = new BasketItem
                         {
                             Basket = basket,
                             ProductId = id,
-                            ProductCount = 1
+                            ProductCount = count??1
                         };
                         await _context.AddAsync(basketItem);
                     }
@@ -81,7 +82,7 @@ namespace Fiorello.App.Services.Implementations
                     BasketViewModel basketViewModel = new BasketViewModel
                     {
                         ProductId = id,
-                        Count = 1
+                        Count = count??1
                     };
                     basketViewModels.Add(basketViewModel);
                     CookieJson = JsonConvert.SerializeObject(basketViewModels);
@@ -96,12 +97,12 @@ namespace Fiorello.App.Services.Implementations
                         basketViewModels.FirstOrDefault(x => x.ProductId == id);
                     if (model != null)
                     {
-                        model.Count++;
+                        model.Count += count ??1;
                     }
                     else
                     {
                         BasketViewModel basketViewModel = new();
-                        basketViewModel.Count = 1;
+                        basketViewModel.Count = count??1;
                         basketViewModel.ProductId = id;
                         basketViewModels.Add(basketViewModel);
                     }
@@ -113,7 +114,7 @@ namespace Fiorello.App.Services.Implementations
 
         public async Task<List<BasketItemViewModel>> GetAllBaskets()
         {
-            if (_httpContext.HttpContext.User.Identity.IsAuthenticated)
+            if (_httpContext.HttpContext.User.Identity.IsAuthenticated && _httpContext.HttpContext.User.IsInRole("User"))
             {
                 AppUser appUser = await _userManager.FindByNameAsync(_httpContext.HttpContext.User.Identity.Name);
                 Basket? basket = await _context.Baskets.Include(x => x.BasketItems.Where(y => !y.IsDeleted))
@@ -147,6 +148,7 @@ namespace Fiorello.App.Services.Implementations
             else
             {
                 var jsonBasket = _httpContext?.HttpContext?.Request.Cookies["basket"];
+              
 
                 if (jsonBasket != null)
                 {
@@ -182,7 +184,7 @@ namespace Fiorello.App.Services.Implementations
 
         public async Task Remove(int id)
         {
-            if (_httpContext.HttpContext.User.Identity.IsAuthenticated)
+            if (_httpContext.HttpContext.User.Identity.IsAuthenticated && _httpContext.HttpContext.User.IsInRole("User"))
             {
                 AppUser user = await _userManager.FindByNameAsync(_httpContext.HttpContext.User.Identity.Name);
 

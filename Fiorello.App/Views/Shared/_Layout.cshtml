@@ -225,7 +225,7 @@
 
                                 </li>
                                 <li>
-                                    @if (User.Identity.IsAuthenticated)
+                                    @if (User.Identity.IsAuthenticated&&User.IsInRole("User"))
                                     {
                                         <a asp-controller="account" asp-action="info"><span>@User.Identity.Name</span></a>
                                         <a asp-controller="account" asp-action="logout"><span>LogOut</span></a>
@@ -294,9 +294,9 @@
                                         <div class="viewCartBox">
                                             <span>VIEW CART</span>
                                         </div>
-                                        <div class="checkOutBox">
+                                        <a asp-controller="order" asp-action="checkout" class="checkOutBox">
                                             <span>CHECKOUT</span>
-                                        </div>
+                                        </a>
                                     </div>
                                 </div>
 
@@ -311,11 +311,11 @@
                                 <div class="shop-icon">
                                     <i class="fas fa-shopping-bag"></i>
                                     <div class="bag-count">
-                                        <p>0</p>
+                                        <p>@count</p>
                                     </div>
                                 </div>
                                 <div class="shop-basket">
-                                    <span>CART</span><span>($</span><span>0</span><span>)</span>
+                                    <span>CART</span><span>($</span><span>@TotalPrice</span><span>)</span>
                                 </div>
                                 <!-- <div class="basketList">
                                     <div class="listProducts">

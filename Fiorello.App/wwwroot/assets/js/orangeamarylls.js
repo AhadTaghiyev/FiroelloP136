@@ -24,6 +24,7 @@ $(document).ready(function () {
         counter++
         $(count).html(counter)
     })
+    $(".button input").val(counter)
 
     console.log($(".littleimage img"));
     $(".littleimage img").click((e) => {

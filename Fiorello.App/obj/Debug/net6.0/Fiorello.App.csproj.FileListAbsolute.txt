@@ -7,6 +7,9 @@
 /Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/bin/Debug/net6.0/Fiorello.App.dll
 /Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/bin/Debug/net6.0/Fiorello.App.pdb
 /Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/bin/Debug/net6.0/Humanizer.dll
+/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 /Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
 /Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
 /Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -15,6 +18,8 @@
 /Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
 /Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
 /Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/bin/Debug/net6.0/Microsoft.Extensions.Identity.Core.dll
+/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/bin/Debug/net6.0/Microsoft.Extensions.Identity.Stores.dll
 /Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/bin/Debug/net6.0/Microsoft.Identity.Client.dll
 /Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
 /Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
@@ -69,8 +74,3 @@
 /Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/obj/Debug/net6.0/Fiorello.App.pdb
 /Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/obj/Debug/net6.0/Fiorello.App.genruntimeconfig.cache
 /Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/obj/Debug/net6.0/ref/Fiorello.App.dll
-/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll
-/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/bin/Debug/net6.0/Microsoft.Extensions.Identity.Core.dll
-/Users/ehedtagiyev/Desktop/Fiorello.App/Fiorello.App/bin/Debug/net6.0/Microsoft.Extensions.Identity.Stores.dll

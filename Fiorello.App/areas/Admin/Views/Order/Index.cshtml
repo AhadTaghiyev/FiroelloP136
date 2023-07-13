@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Order>
+<div class="container">
+    <table class="table table-sm">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">UserName</th>
+                <th scope="col">TotalPrice</th>
+                <th scope="col">Status</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <th scope="row">@item.Id</th>
+                    <th>@item.AppUser.UserName</th>
+                    <th>@item.TotalPrice</th>
+                    @if (item.IsAccepted == false)
+                    {
+                        <td><a asp-controller="order" asp-action="accept" asp-route-id="@item.Id">Accept</a></td>
+                        <td><a asp-controller="order" asp-action="Reject" asp-route-id="@item.Id" class=" delete-item">Reject</a></td>
+                    }
+                    else if (item.IsAccepted == true && item.IsCompleted == false)
+                    {
+                        <td><a asp-controller="order" asp-action="complete" asp-route-id="@item.Id">Completed</a></td>
+                    }
+                    else
+                    {
+                        <th>Order Completed</th>
+                    }
+                </tr>
+            }
+
+        </tbody>
+    </table>
+    <div>
+        <a asp-controller="category" asp-action="create" style="display: block; text-decoration: none; color: white; width: 100%; height: 100%"  > <div style="width:100%; "  class="btn btn-outline-success">Category yarat </div></a>
+    </div>
+
+</div>
+
+
+
+

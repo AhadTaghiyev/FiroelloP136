@@ -24,7 +24,7 @@ namespace Fiorello.App.areas.Admin.Controllers
             _signinManager = signinManager;
         }
 
-        [Authorize(Roles ="SuperAdmin")]
+        //[Authorize(Roles ="SuperAdmin")]
         public async Task<IActionResult> AdminCreate()
         {
             AppUser SuperAdmin = new AppUser

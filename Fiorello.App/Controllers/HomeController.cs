@@ -30,9 +30,10 @@ public class HomeController : Controller
             if (jsonBasket != null)
             {
                 AppUser appUser = await _userManager.FindByNameAsync(User.Identity.Name);
-                Basket? basket = await _context.Baskets.Where(x => !x.IsDeleted && x.AppUserId == appUser.Id).FirstOrDefaultAsync();
+                Basket? basket = await _context.Baskets.Include(x=>x.BasketItems).Where(x => !x.IsDeleted && x.AppUserId == appUser.Id).FirstOrDefaultAsync();
                 if (basket == null)
                 {
+
                      basket = new Basket
                     {
                         CreatedDate = DateTime.Now,
@@ -40,17 +41,32 @@ public class HomeController : Controller
                     };
                     await _context.Baskets.AddAsync(basket);
                 }
+          
                 List<BasketViewModel> viewModels = JsonConvert.DeserializeObject<List<BasketViewModel>>(jsonBasket);
                 foreach (var item in viewModels)
                 {
-                    BasketItem basketItem = new BasketItem
+                    BasketItem basketItem = default;
+
+                    if (basket.BasketItems != null)
                     {
-                        Basket = basket,
-                        CreatedDate = DateTime.Now,
-                        ProductId = item.ProductId,
-                        ProductCount = item.Count
-                    };
-                    await _context.BasketItems.AddAsync(basketItem);
+                       basketItem= basket.BasketItems.FirstOrDefault(x => x.ProductId == item.ProductId);
+                    }
+
+                    if (basketItem == null)
+                    {
+                        basketItem = new BasketItem
+                        {
+                            Basket = basket,
+                            ProductId = item.ProductId,
+                            ProductCount = item.Count
+                        };
+                        await _context.AddAsync(basketItem);
+                    }
+                    else
+                    {
+                        basketItem.ProductCount++;
+                    }
+
                 }
                 await _context.SaveChangesAsync();
 

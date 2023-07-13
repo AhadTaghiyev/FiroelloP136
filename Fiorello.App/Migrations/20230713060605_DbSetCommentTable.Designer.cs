@@ -4,6 +4,7 @@ using Fiorello.App.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Fiorello.App.Migrations
 {
     [DbContext(typeof(FiorelloDbContext))]
-    partial class FiorelloDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230713060605_DbSetCommentTable")]
+    partial class DbSetCommentTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
